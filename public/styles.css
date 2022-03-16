@@ -7,7 +7,8 @@ html {
   font-family: sans-serif;
 }
 body {
-  background: #eee;
+  background-color: #eeeeee;
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
   padding: 0 16px;
 }
 
@@ -77,6 +78,7 @@ form textarea {
   font-family: inherit;
   resize: none;
 }
+
 form button {
   position: absolute;
   left: 18px;
@@ -92,16 +94,16 @@ form button {
   outline: none;
 }
 
-
 .note button {
   position: relative;
   float: left;
   margin-right: 10px;
   color: #f5ba13;
+  font-size: 17px;
   border: none;
   width: 36px;
-  height: 36px;
+  height: 22px;
   cursor: pointer;
   outline: none;
+  background-color: initial;
 }
-
